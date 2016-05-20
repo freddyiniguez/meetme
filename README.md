@@ -5,6 +5,12 @@
 ### What is MeetMe?
 **MeetMe** is designed for entrepreneurs and very busy people who want to stop wasting time when scheduling a meeting with their employees. **MeetMe** is an online meeting planner that will help users to schedule meetings in a much faster and effective way, just by indicating **MeetMe** their available dates for a meeting at once. **MeetMe** will be able to automatically select the best suitable date for the meeting made by a coordinator, considering the participant's requirements or time zones.
 
+## Contributors
+* Blanco-Aguirre José Luis <jose.blancoc@cimat.mx>
+* Íñiguez-López Freddy <freddy.iniguez@cimat.mx> [Page](http://freddyiniguez.github.io/Comfred/)
+* Naal-Avila Carlos Adrián <>carlos.naal@cimat.mx>
+
+
 ## Installation steps
 ### How to install MeetMe (developers version)?
 The first thing you need to do in order to install the developer version of **MeetMe** is to be sure that your machine/server has all the necessary packages for python and django. The necessary packages for a completely fresh installation are the following:
@@ -22,7 +28,7 @@ $ cd /path/to/meetme/project/
 $ git clone https://github.com/freddyiniguez/meetme.git
 ```
 
-## Initializing MeetMe project
+### Initializing MeetMe project
 Once all the requirements for the **MeetMe** system has been installed and we have clone the **MeetMe** repository, we need to prepare the development environment, migrate the database configuration, and execute the server, type the following commands to do so:
 ```
 $ cd /path/to/the/meetme/project/
