@@ -6,9 +6,9 @@
 **MeetMe** is designed for entrepreneurs and very busy people who want to stop wasting time when scheduling a meeting with their employees. **MeetMe** is an online meeting planner that will help users to schedule meetings in a much faster and effective way, just by indicating **MeetMe** their available dates for a meeting at once. **MeetMe** will be able to automatically select the best suitable date for the meeting made by a coordinator, considering the participant's requirements or time zones.
 
 ## Contributors
-* Blanco-Aguirre José Luis <jose.blancoc@cimat.mx>
-* Íñiguez-López Freddy <freddy.iniguez@cimat.mx> [Page](http://freddyiniguez.github.io/Comfred/)
-* Naal-Avila Carlos Adrián <>carlos.naal@cimat.mx>
+* Blanco-Aguirre José Luis <jose.blanco@cimat.mx>
+* Íñiguez-López Freddy <freddy.iniguez@cimat.mx> [Webpage](http://freddyiniguez.github.io/Comfred/){:target="_blank"}
+* Naal-Avila Carlos Adrián <carlos.naal@cimat.mx>
 
 
 ## Installation steps
