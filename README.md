@@ -7,7 +7,7 @@
 
 ## Contributors
 * Blanco-Aguirre José Luis <jose.blanco@cimat.mx>
-* Íñiguez-López Freddy <freddy.iniguez@cimat.mx> [Webpage](http://freddyiniguez.github.io/Comfred/){:target="_blank"}
+* Íñiguez-López Freddy <freddy.iniguez@cimat.mx> [Webpage](http://freddyiniguez.github.io/Comfred/)
 * Naal-Avila Carlos Adrián <carlos.naal@cimat.mx>
 
 
