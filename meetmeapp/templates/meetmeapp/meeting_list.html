@@ -32,24 +32,31 @@
 			</div>
 
 			<!-- Meeting Content -->
-			<div id="marketing" class="row">
-				<div class="3u">
-					<section class="box">
-						<h2>Freddy</h2>
-						<p class="subtitle">Título</p>
-						<p>Start date: 12-02-2016</p>
-						<p></p>
-						<p>Participantes:</p>
-						<ul class="style1">
-							<li><a href="#">Fulanito de tal</a></li>
-							<li><a href="#">Otro fulano</a></li>
-							<li><a href="#">Mengano</a></li>
-							<li><a href="#">Doctor X</a></li>
-						</ul>
-						<p><a href="#" class="button"><span>Read More</span></a></p>
-					</section>
+			<!-- We get all the meetings from the database -->
+			<div>
+				<div id="marketing" class="row">
+					{% for meeting in meetings %}
+						<div class="3u">
+							<section class="box">
+								<h2>Freddy</h2>
+								<p class="subtitle">{{meeting.title}}</p>
+								<p><b>Start date:</b> {{meeting.start_date}}</p>
+								<p><b>End date:</b> {{meeting.end_date}}</p>
+								<p><b>Participants</b></p>
+								<p></p>
+								<ul class="style1">
+									<li><a href="#">Jeff Bezos</a></li>
+									<li><a href="#">Angela Merkel</a></li>
+									<li><a href="#">Aung San Sun Kyi</a></li>
+									<li><a href="#">Pope Francis</a></li>
+									<li><a href="#">Tim Cook</a></li>
+								</ul>
+								<!-- <p>Details: {{meeting.description|linebreaks}}</p> -->
+								<p><a href="#" class="button"><span>See details</span></a></p>
+							</section>
+						</div>
+					{% endfor %}
 				</div>
-			
 			</div>
 
 		</div>
