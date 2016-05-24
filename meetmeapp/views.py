@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def meeting_list(request):
+	return render(request, 'meetmeapp/meeting_list.html', {})
